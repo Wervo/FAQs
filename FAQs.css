@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+    font-family: 'Work Sans', sans-serif;
+    background-image: url(background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:  hsl(275, 100%, 97%);
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width:650px;
+    height:auto;
+    background-color: white;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px -5px;
+    transition: height 0.3s ease-in-out;
+}
+
+.faq{
+    transform: translateY(30px);
+}
+
+.plus-img{
+    margin-left:auto;
+}
+
+.minus-img{
+    margin-left:auto;
+}
+
+.flex{
+    display:flex;
+    gap:1rem;
+}
+
+.flex img{
+    width:30px;
+    height:30px;
+    transform: translateY(10px);
+}
+
+.flex h1{
+    font-size: 2.5rem;
+    font-weight:900;
+    display:flex;
+}
+
+.question1, .question2, .question3, .question4{
+    font-weight: 700;
+    font-size: .9rem;
+    display:flex;
+}
+
+.questions p{
+    font-size:0.9rem;
+    width:100%;
+    margin-bottom:1rem;
+    color:hsl(292, 16%, 49%);
+}
+
+.questions .question1,
+.questions .question2,
+.questions .question3,
+.questions .question4 {
+    margin-bottom: 1rem; 
+}
+
+
+.questions img{
+    cursor: pointer;
+}
+
+.questions span:hover{
+    color:hsl(292, 86%, 48%);
+    cursor: pointer;
+}
+
+.hidden{
+    display:none;
+}
+
+
+
